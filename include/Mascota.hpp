@@ -8,12 +8,13 @@ private:
     std::string nombre;
 
 public:
-    Mascota(){
-         this->vida=100;
-    }
-    void EstablecerNombre( std::string nombre) 
+    Mascota()
     {
-        this ->nombre= nombre;
+        this->vida = 100;
+    }
+    void EstablecerNombre(std::string nombre)
+    {
+        this->nombre = nombre;
     }
     ~Mascota() {}
     void DecirNombre()
