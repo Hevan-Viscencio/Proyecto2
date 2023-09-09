@@ -1,3 +1,5 @@
+@startuml SpaceRace
+
 class Cohete 
 class Asteroide
 class Borde
@@ -48,3 +50,5 @@ Controlador o-- Posicion
 Posicion --* Cordenada
 Patron --* Tiempo
 Fin --o Puntaje
+
+@enduml
