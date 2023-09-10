@@ -1,6 +1,8 @@
 @startuml SpaceRace
 
-class Cohete 
+class Cohete {
+    +EstablecerNombre()
+}
 class Asteroide
 class Borde
 class Controlador
