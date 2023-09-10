@@ -1,22 +1,51 @@
 @startuml SpaceRace
 
 class Cohete {
-    +EstablecerNombre()
+    +EstablecerNombr()
 }
 class Asteroide
-class Borde
-class Controlador
-class Pantalla
-class Puntaje
-class CoheteEnemigo
-class Fin
-class Animacion
-class Muerte
-class Patron
-class Tiempo
-class Posicion
-class Cordenada
-class Imagen
+{
+    +AsignarNombre()
+}
+class Borde{
+    +AsignarNombre()
+}
+class Controlador{
+    +AsignarNombre()
+}
+class Pantalla{
+    +AsignarNombre()
+}
+class Puntaje{
+    +AsignarNombre()
+}
+class CoheteEnemigo{
+    +AsignarNombre()
+}
+class Fin{
+    +AsignarNombre()
+}
+class Animacion{
+    +AsignarNombre()
+}
+class Muerte{
+    +AsignarNombre()
+}
+class Patron{
+    +AsignarNombre()
+}
+class Tiempo{
+    +AsignarNombre()
+}
+class Posicion{
+    +AsignarNombre()
+}
+class Cordenada{
+    +AsignarNombre()
+}
+class Imagen{
+    +AsignarNombre()
+}
 
 Pantalla *-- Puntaje
 Pantalla *-- Cohete
